@@ -46,6 +46,18 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - sp_InsertLesson.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2 - sp_InsertLessonHW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - sp_InsertLessonHW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - sp_InsertSchedule PROC HW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - sp_InsertSchedule PROC HW.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery2 - sp_InsertSchedule PROC.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>

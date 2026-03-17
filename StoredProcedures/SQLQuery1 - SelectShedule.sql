@@ -1,5 +1,6 @@
 --SQLQuery1 - SelectShedule
 USE PV_522_Import;
+SET LANGUAGE RUSSIAN;
 GO
 ALTER PROCEDURE sp_SelectedShedule
 AS
