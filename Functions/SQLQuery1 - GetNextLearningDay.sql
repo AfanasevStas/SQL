@@ -7,10 +7,10 @@ ALTER FUNCTION GetNextLearningDay(@group_name AS NCHAR(10), @last_learning_date 
 AS
 BEGIN
 	DECLARE	@group_id			AS	INT		=	(SELECT group_id FROM Groups WHERE group_name = @group_name);
-	DECLARE	@learning_days		AS	TINYINT	=	(SELECT learning_days FROM Groups WHERE group_id = @group_id);
-	DECLARE	@last_learning_day	AS	TINYINT	=	DATEPART(WEEKDAY, @last_learning_date);
-	DECLARE	@next_learning_day	AS	TINYINT	=	0;
-	DECLARE	@day				AS	TINYINT	=	@last_learning_day;
+	DECLARE	@learning_days		AS	SMALLINT	=	(SELECT learning_days FROM Groups WHERE group_id = @group_id);
+	DECLARE	@last_learning_day	AS	SMALLINT	=	DATEPART(WEEKDAY, @last_learning_date);
+	DECLARE	@next_learning_day	AS	SMALLINT	=	0;
+	DECLARE	@day				AS	SMALLINT	=	@last_learning_day+1;
 
 	WHILE @day <= 14
 	BEGIN

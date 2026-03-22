@@ -3,7 +3,7 @@ USE PV_522_Import;
 SET DATEFIRST 1;
 GO
 
-ALTER PROCEDURE sp_InsertSchedule
+CREATE OR ALTER PROCEDURE sp_InsertSchedule
 		@group_name					AS	NCHAR(10),
 		@discipline_name			AS	NVARCHAR(150),
 		@teacher_name				AS	NVARCHAR(50),
