@@ -46,17 +46,17 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - SlectetDisciplineFromShedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
-        </FileNode>
         <FileNode Name="SQLQuery2 - sp_InsertLesson.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - sp_InsertLesson.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - sp_InsertLesson_HW_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-75JHVS3\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - sp_InsertLesson_HW_2.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - sp_InsertLessonHW.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-75JHVS3\SQLEXPRESS:True</AssociatedConnectionMoniker>
