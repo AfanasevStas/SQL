@@ -2,7 +2,7 @@
 USE PV_522_Import;
 GO
 
-CREATE PROCEDURE sp_InsertLesson
+CREATE OR ALTER PROCEDURE sp_InsertLesson
 		@group AS INT, 
 		@discipline AS SMALLINT, 
 		@teacher AS SMALLINT, 
