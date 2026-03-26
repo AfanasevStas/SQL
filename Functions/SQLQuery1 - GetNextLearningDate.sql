@@ -10,5 +10,9 @@ BEGIN
 	DECLARE	@next_learning_day	AS	SMALLINT	=	dbo.GetNextLearningDay(@group_name, @last_learning_date);
 	DECLARE	@interval			AS	SMALLINT	=	@next_learning_day - @last_learning_day;
 	IF @interval < 0	SET @interval += 7;
-	RETURN	DATEADD(DAY,@interval,@last_learning_date);
+	DECLARE @date AS DATE =	DATEADD(DAY,@interval,@last_learning_date);
+	RETURN IIF(NOT EXISTS(SELECT [date] FROM DaysOFF WHERE [date] = @date),@date,dbo.GetNextLearningDate(@group_name, @date))
+	--IF EXISTS (SELECT [date] FROM DaysOFF WHERE [date] = @date)
+	--		SET @date = dbo.GetNextLearningDate(@group_name, @date);
+	--RETURN @date;
 END
